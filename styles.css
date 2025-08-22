@@ -1,0 +1,44 @@
+/* *{color:purple;} */
+/* .alert-text {color: red;} */
+/* p {color: aqua;} */
+/* 
+div {
+  color: rgb(187, 156, 255);
+  background-color: rgb(25, 4, 38);
+}
+
+p {
+  color: red;
+} */
+
+body {
+  background-color: black;
+  color: white; /* makes text visible */
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: pink;
+}
+
+h3 {
+  color: pink
+}
+
+p {
+  color:lightblue
+}
+h {color:pink}
+
+ul {
+  color:lightblue; background-color: rgb(27, 27, 27);
+}
+
+ol {
+  color:lightblue; background-color: rgb(27, 27, 27);
+}
+
+img {
+    width: 300px; ;
+    height: auto;
+}
