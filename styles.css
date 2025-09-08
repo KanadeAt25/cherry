@@ -15,10 +15,12 @@ body {
   background-color: black;
   color: white; /* makes text visible */
   font-family: Arial, sans-serif;
+  /* padding: 15px; */
+  margin: 25px;
 }
 
-h, h1, h3 {
-  color: pink
+h1, h2, h3 {
+  color: rgb(255, 192, 203)
 }
 
 p, ul, ol {
@@ -26,14 +28,21 @@ p, ul, ol {
 }
 
 ul, ol {
-  border-style:unset;
-  border-color: rgb(27, 27,27);
+  border-style:outset;
+  border-color: rgb(255, 192, 203, 0.2);
   border-width: 4px;
-  border-radius: 7px;
-  padding: 5px;
+  border-radius: 10px;
+  padding: 15px;
+  list-style-position:inside;
+  margin: 15px;
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+ul.circle {
+  list-style-type: circle; /* ○ */
 }
 
 img {
-    width: 300px; ;
+    width: 300px;
     height: auto;
 }
